@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    height: 80px;
+}
+
+.header-left {
+    float: left;
+    width: 20%;
+    text-align: center;
+    height: 100%;
+}
+
+.header-right {
+    float: left;
+    width: 80%;
+    background-color: red;
+    height: 100%;
+    text-align: right;
+}
+
+header h1 {
+    color: red;
+}
+
+header input, header button {
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+header button {
+    padding: 6px 12px;
+    background-color: red;
+    color: white;
+    border: 0;
+}
+
+#search-input {
+    margin: -5px;
+    width: 190px;
+}
+
+#search-button {
+    background-color: black;
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    letter-spacing: .5px;
+}
+
+#search-input.active {
+    width: 390px;
+    -webkit-transition: width 1s;
+    transition: width 1s;
+    padding: 22px 27px 27px;
+    font-size: 150%;
+}
+
+#search-button.active {
+    transition: 1s;
+    transform: scale(1.4);
+}
+
+main {
+    background-color: black;
+}
+
+#risultati {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 90px;
+}
+
+.card-film {
+    background-color: #4F2429;
+    height: 300px;
+    width: 200px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 5px 7px rgba(107, 39, 39, 1);
+    -moz-box-shadow: 0px 0px 5px 7px rgba(107, 39, 39, 1);
+    box-shadow: 0px 0px 5px 7px rgba(107, 39, 39, 1);
+    background:#782121;
+    color: white;
+    padding: 10px;
+}
+
+i.fa-star {
+    color: gold;
+}
