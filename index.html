@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inserisci titolo</title>
+    <title>Boolflix</title>
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- FONTAWESOME -->
@@ -41,13 +41,13 @@
     <!-- SCRIPT -->
     <script id="card-film-template" type="text/x-handlebars-template">
         <!-- INSERISCI IL TUO LAYOUT TEMPLATE -->
+
         <div class="card-film">
             <p class="title"><strong>Titolo: {{ titolo }}</strong></p>
-            <p class="original-title"> Titolo originale: {{ original_title }}</p><br>
-            <p class="lingua">Lingua: {{ lingua }}</p>
-            <p class="voto">Voto: {{ voto }}</p>
+            <p class="original-title"> Titolo originale: {{ titolo_originale }}</p><br>
+            <p class="type">Tipo: {{ tipo }}</p>
+            <p class="lingua">Lingua: {{{ lingua }}}</p>
             <p class="stelle">Stelle: {{{ stelle }}}</p>
-
         </div>
     </script>
     <script src="main.js" charset="utf-8"></script>

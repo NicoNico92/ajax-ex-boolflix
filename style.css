@@ -99,6 +99,15 @@ main {
     padding: 10px;
 }
 
+.card-film.tv {
+    background-color: blue;
+}
+
 i.fa-star {
     color: gold;
+    cursor: pointer;
+}
+
+.bandiera {
+    width: 15%;
 }
