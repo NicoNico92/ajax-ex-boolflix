@@ -41,14 +41,21 @@
     <!-- SCRIPT -->
     <script id="card-film-template" type="text/x-handlebars-template">
         <!-- INSERISCI IL TUO LAYOUT TEMPLATE -->
-
+        <div class="scene">
         <div class="card-film">
+        <div class="card-face front">
+            <img class="locandina" src="{{ immagine }}">
+        </div>
+        <div class="card-face back">
             <p class="title"><strong>Titolo: {{ titolo }}</strong></p>
             <p class="original-title"> Titolo originale: {{ titolo_originale }}</p><br>
             <p class="type">Tipo: {{ tipo }}</p>
             <p class="lingua">Lingua: {{{ lingua }}}</p>
             <p class="stelle">Stelle: {{{ stelle }}}</p>
         </div>
+        </div>
+        </div>
+
     </script>
     <script src="main.js" charset="utf-8"></script>
 </body>
